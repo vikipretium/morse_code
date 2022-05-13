@@ -40,4 +40,4 @@ def decode(encryption)
   letters.map{ |letter| morse_code(letter)}.join
 end
 
-print full_decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-")
+print full_decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
