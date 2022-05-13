@@ -29,3 +29,22 @@ def morse_code(code)
       }
       codes[code]
     end
+
+    print morse_code(".--.")
+print "\n"
+
+def full_decode(full_encryption)
+  space = ''
+  full_encryption = full_encryption.split('   ')
+  full_encryption.map {|word| decode(word) }.join
+  space
+end
+
+def decode(encryption)
+  letters = encryption.split
+  letters.map { |letter| morse_code(letter)}.join
+end
+
+
+
+ print full_decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-
