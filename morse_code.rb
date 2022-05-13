@@ -30,9 +30,6 @@ def morse_code(code)
       codes[code]
     end
 
-    print morse_code(".--.")
-print "\n"
-
 def full_decode(full_encryption)
   space = ''
   full_encryption = full_encryption.split('   ')
@@ -47,4 +44,4 @@ end
 
 
 
- print full_decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-
+ print full_decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-")
