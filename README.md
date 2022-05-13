@@ -2,11 +2,8 @@
 
 # Morse Code
 
-<!-- ![screenshot]()
+![screenshot](./output.png)
 
-[Live Link]() -->
-
->
 
 ## Built With
 
@@ -16,6 +13,7 @@
 
   ```bash
   - Git(version control)
+  - Ruby
   ```
 
 ## Getting Started
@@ -29,9 +27,10 @@ To get a local copy up and running follow these simple example steps.
 ### Install
 
 - [Git](https://git-scm.com/downloads)
-- [Node](https://nodejs.org/en/download/)
+- [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 
 ### Usage
+
 
 #### Clone this repository
 
@@ -44,9 +43,7 @@ cd morse_code
 #### Run project
 
 ```bash
-$ npm install
-$ npm build
-$ npm start
+$ ruby morse_code.rb
 ```
 
 ## Author
