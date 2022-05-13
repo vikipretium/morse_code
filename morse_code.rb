@@ -31,17 +31,13 @@ def morse_code(code)
     end
 
 def full_decode(full_encryption)
-  space = ''
   full_encryption = full_encryption.split('   ')
-  full_encryption.map {|word| decode(word) }.join
-  space
+  full_encryption.map {|word| decode(word) }.join(" ")
 end
 
 def decode(encryption)
   letters = encryption.split
-  letters.map { |letter| morse_code(letter)}.join
+  letters.map{ |letter| morse_code(letter)}.join
 end
 
-
-
- print full_decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-")
+print full_decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-")

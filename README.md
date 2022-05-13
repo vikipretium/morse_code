@@ -1,4 +1,3 @@
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Morse Code
@@ -12,8 +11,6 @@
 ## Built With
 
 - Major languages (Ruby)
-
-
 
 - Technologies used
 
